@@ -1,0 +1,14 @@
+body{
+	background-color: rgba(50,100,200,0.8) 
+}
+
+.categorias{
+ column-count: 3;
+}
+
+
+h1{
+  text-align: center;
+  color: rgba(20,50,70,1);
+  background-color: rgb(20,220,190);
+}
