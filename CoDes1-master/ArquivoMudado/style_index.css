@@ -7,6 +7,10 @@ body{
 
 }
 
+.bodyperfil{
+  position: relative;
+  left: 800px
+}
 
 h1{
   text-align: center;
