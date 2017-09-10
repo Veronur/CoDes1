@@ -1,5 +1,6 @@
 body{
-	background-color: rgba(50,100,200,0.8) 
+	background-color: rgba(50,100,200,0.8);
+  font-family: "Gill Sans MT Condensed"; 
 }
 
 .categorias{
@@ -76,3 +77,29 @@ a{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+#portifolio{
+  position: relative;
+  text-align: center;
+}
+
+.projeto{
+  border: 2px inset #9DD1F1;
+  display: inline-block;
+  height: 200px;
+  margin-top: 4px;
+  padding: 30px auto;
+  text-align: center;
+  width: 215px;
+}
+
+.projeto img{
+
+  width: 215px;
+  height: 200px;  
+  padding-top: 40px;
+  position: relative;
+  top: -41px;
+}
+
+
