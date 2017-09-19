@@ -17,7 +17,7 @@ body{
 h1{
   text-align: center;
   color: rgba(20,50,70,1);
-  background-color: rgb(20,220,190);
+  background-color: rgb(100,150,190);
   border-style: outset;
   position: relative;
   top: 46px;
@@ -59,7 +59,7 @@ a{
 }
 
 .dropbtn {
-    background-color: #8CAF50;
+    background-color: rgba(20,30,50,0.8);
     color: white;
     padding: 10px;
     font-size: 10px;
@@ -91,7 +91,7 @@ a{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: rgba(20,30,50,1);
 }
 
 #portifolio{
@@ -118,7 +118,7 @@ a{
 }
 
 .navegador {
-  background-color: rgba(0,200,255,0.6);
+  background-color: rgba(0,0,0,0.6);
   border-bottom: 1px solid #466995;
   overflow-y: auto;
   width: 100%;
@@ -145,7 +145,7 @@ li {
 }
 
 .homebtn{
-  background-color: #8CAF50;
+  background-color: rgba(20,30,50,0.8);
   color: white;
   padding: 10px;
   font-size: 10px;
@@ -191,6 +191,20 @@ li {
   text-align: center;
   position: relative;
   top: -7px;
-  color: rgb(0,150,150);
+  color: #466995;
 }
 
+img {
+  float: left;
+  height: 130%;
+  width: 130%;
+  clear: both;
+}
+
+.fotos {
+  clear: both;
+}
+
+.fotos li{
+  text-align: left;
+}
