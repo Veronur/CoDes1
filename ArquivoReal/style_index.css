@@ -1,5 +1,5 @@
 body{
-	background-color: rgba(50,100,200,0.8);
+	background-color: rgb(180,180,180);
   font-family: "Gill Sans MT Condensed"; 
 }
 
@@ -19,10 +19,32 @@ h1{
   color: rgba(20,50,70,1);
   background-color: rgb(20,220,190);
   border-style: outset;
+  position: relative;
+  top: 46px;
 }
 
-h3{
-  font-size: 30px;
+h2 {
+  color: #333;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 40px auto;
+}
+
+h3 {
+  color: #466995;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #466995;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
 }
 
 a{
@@ -31,24 +53,16 @@ a{
   text-decoration: none;
 }
 
-.aluno{
-  font-size: 17px;
-  border-style: double;
-  border-radius: 5px;
-  width: 100%;
-
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #8CAF50;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 10px;
     border: none;
     cursor: pointer;
 }
@@ -56,9 +70,10 @@ a{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    min-width: 60px;
+    box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+    z-index: 10000;
+
 }
 
 .dropdown-content a {
@@ -66,6 +81,7 @@ a{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -94,7 +110,6 @@ a{
 }
 
 .projeto img{
-
   width: 215px;
   height: 200px;  
   padding-top: 40px;
@@ -102,4 +117,80 @@ a{
   top: -41px;
 }
 
+.navegador {
+  background-color: rgba(0,200,255,0.6);
+  border-bottom: 1px solid #466995;
+  overflow-y: auto;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  padding-bottom: -200px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 25px;
+}
+
+.inicial {
+  position: relative;
+  top: 0px;
+}
+
+.homebtn{
+  background-color: #8CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  float:left;
+}
+
+.dhomebtn a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
+.dropdown:hover {
+    background-color: #3e8e41;}
+
+.aluno {
+  margin: 120px auto;
+  text-align: center;
+  position: relative;
+  clear: both;
+  
+}
+
+.answer {
+  border: 1px solid #466995;
+  display: inline-block;
+  height: 100px;
+  margin: 20px;
+  padding-top: 40px;
+  width: 220px;
+  text-align: center;
+ 
+}
+
+.answer a{
+  text-decoration: none;
+  border-style: none;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -7px;
+  color: rgb(0,150,150);
+}
 
