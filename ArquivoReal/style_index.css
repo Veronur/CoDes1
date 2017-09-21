@@ -36,6 +36,8 @@ h3 {
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+  position: relative;
+  top: -10px;
 }
 
 h4 {
@@ -51,6 +53,7 @@ a{
   font-size:15px;
   border-style: inset;
   text-decoration: none;
+  clear: none;
 }
 
 .dropdown {
@@ -65,14 +68,16 @@ a{
     font-size: 10px;
     border: none;
     cursor: pointer;
+
 }
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 60px;
     box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
     z-index: 10000;
+
 
 }
 
@@ -82,7 +87,10 @@ a{
     text-decoration: none;
     display: block;
 
+
 }
+
+
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
@@ -127,6 +135,10 @@ a{
   z-index: 1000;
   padding-bottom: -200px;
   text-align: center;
+  max-height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  max-width: 99%;
 }
 
 li {
@@ -147,11 +159,11 @@ li {
 .homebtn{
   background-color: rgba(20,30,50,0.8);
   color: white;
-  padding: 10px;
-  font-size: 10px;
+  padding: 15px;
+  font-size: 15px;
   border: none;
   cursor: pointer;
-  float:left;
+
 }
 
 .dhomebtn a {
@@ -194,17 +206,75 @@ li {
   color: #466995;
 }
 
-img {
-  float: left;
-  height: 130%;
-  width: 130%;
+.fotos img {
+  float: center;
+  height: 128%;
+  width: 128%;
   clear: both;
 }
 
 .fotos {
   clear: both;
+  display: inline-block;
 }
 
-.fotos li{
-  text-align: left;
+.rodape{
+
+}
+
+.navegador li{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Nav {
+  background-color: rgba(20,30,50,0.8);
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.Cols{
+  column-count: 3;
+  max-height: 41em;
+  text-align: center;
+  width: 100%;
+}
+
+.info {
+  height: 6.2em;
+  border-style: double;
+  font-size: 100px;
+  text-align: center;
+  clear: both;
+  margin-top: 4px;
+  position: relative;
+  top: -10px;
+}
+
+.biblio {
+  margin-top: -18.6px;
+  border-style: solid;
+  clear: both;
+  height: 37.7em;
+  padding: 10px;
+
+}
+
+.info li{
+  padding-bottom: 1px;
+  border-style: dotted;
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sera {
+  
+  clear: both;  
+  word-break: break-all;
+  
+  
 }
