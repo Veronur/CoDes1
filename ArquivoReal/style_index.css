@@ -184,8 +184,8 @@ li {
 
 .fotos img {
   float: center;
-  height: 128%;
-  width: 128%;
+  height: 200px;
+  width: 200px;
   clear: both;
 }
 
@@ -227,7 +227,7 @@ li {
   clear: both;
   margin-top: 4px;
   position: relative;
-  top: -10px;
+  top: 8px;
 }
 
 .biblio {
@@ -331,4 +331,16 @@ li {
   column-count: 2;
   text-align: center;
 
+}
+
+
+.infop {
+  font-size: 25px;
+}
+
+.Cols2{
+  column-count: 2;
+  max-height: 42em;
+  text-align: center;
+  width: 100%;
 }
